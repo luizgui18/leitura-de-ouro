@@ -1,0 +1,71 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: blue;
+    color: white;
+    padding: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+footer p {
+    margin: 0;
+}
+/* Exemplo de CSS para estilizar a seção de destaque */
+section {
+    margin-bottom: 20px;
+}
+
+section h2 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+section p {
+    color: #666;
+    font-size: 16px;
+}
+
+section div {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+section div img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+section div h3 {
+    color: #333;
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+/* Exemplo de CSS para tornar o site responsivo */
+@media screen and (max-width: 768px) {
+    section div {
+        padding: 10px;
+    }
+}
